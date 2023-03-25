@@ -4,8 +4,8 @@ def triangle(num) :
     for x in range(num-1) :
         x+=2
         y+=x
-    print(y)
+    return y
 
-triangle(1)
-triangle(6)
-triangle(215)
+print(triangle(1))
+print(triangle(6))
+print(triangle(215))
